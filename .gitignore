@@ -1,1 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+venv.bak/
+env.bak/
+*.sqlite3
+*.log
+
+# Virtual environment
+/tenv/
+.pyenv/
+
+# Django/migrations or Flask cache (if applicable)
+/instance/
+*.db
+
+# Environment variables
 .env
+*.env
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/frontend/build
+/frontend/dist
+
+# React build output
+/frontend/.next/
+/frontend/out/
+/frontend/.parcel-cache/
+/frontend/.turbo/
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+**/Dockerfile
+docker-compose.yml
+.dockerignore
+
+# VSCode
+.vscode/
+
+# Others
+*.swp
+*.swo
+*.bak
+.idea/
